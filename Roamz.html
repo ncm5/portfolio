@@ -1,0 +1,332 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="./styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+    rel="stylesheet">
+  <title>Nicholas Chua</title>
+</head>
+
+<body class=bg-image>
+  <!--Navbar-->
+  <nav class="navbar navbar-expand-lg bg-transparent">
+    <div class="container">
+      <a class="navbar-brand" href="http://127.0.0.1:3000/index.html">Nicholas Chua</a>
+      <button class="navbar-toggler shadow-none border-0" type="button" data-bs-toggle="offcanvas"
+        data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!--SideBar-->
+      <div class="sidebar  offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar"
+        aria-labelledby="offcanvasNavbarLabel">
+
+        <!--SideBar Header-->
+        <div class="offcanvas-header border-bottom">
+          <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Nicholas Chua</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close">
+          </button>
+        </div>
+
+        <!--SideBar Body-->
+        <div class="offcanvas-body d-flex flex-column flex-lg-row p-4">
+          <ul class="navbar-nav justify-content-end align-items-center font-size-adjust flex-grow-1 pe-3">
+            <li class="nav-item font-padding-adjust mx-2">
+              <a class="nav-link active" aria-current="page" href="http://127.0.0.1:3000/index.html">Home</a>
+            </li>
+            <li class="nav-item font-padding-adjust mx-2">
+              <a class="nav-link" href="http://127.0.0.1:3000/work.html">Work</a>
+            </li>
+            <li class="nav-item font-padding-adjust mx-2">
+              <a class="nav-link" href="#">About</a>
+            </li>
+          </ul>
+
+          <!--Contact-->
+          <div class="d-flex flex-column justify-content-center  align-items-center gap-3">
+            <a href="Contact" class="col-12 sidebar-btn-adjust btn btn-primary">Contact</a>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!--End Navbar-->
+
+
+
+  <div class="container col-xl-5 col-lg-12 col-md-12 col-sm-12 mt-5">
+
+    <div class="container mb-5 p-0">
+      <div aria-label="breadcrumb">
+        <ol class="font-monospace breadcrumb-adj breadcrumb">
+          <li class="breadcrumb-item"><a class="breadcrumb-adj" href="http://127.0.0.1:3000/work.html"> <- Back</a></li>
+        </ol>
+      </div>
+    </div>
+
+    <div class="row d-flex ">
+      <div class=" ">
+        <!-- Post content-->
+        <article>
+          <!-- Post header-->
+          <header class="mb-5 border-bottom">
+            <!-- Post title-->
+            <h1 class="fw-bolder mb-3 ">RoamZ</h1>
+            <!-- Post meta content-->
+            <p class="fs-5  lh-base">For RoamZ, a travel booking company, my task was to design a seamless
+              checkout experience that takes the user from the shopping cart to booking confirmation.
+              With a focus on user-centric navigation and minimal friction during the process,
+              I crafted a series of screens that simplify each step,
+              making it easier for customers to complete their bookings confidently and quickly.
+            </p>
+            <!-- Post categories-->
+            <div class="d-flex  gap-3 mt-3 mb-5">
+              <a class="badge bg-black text-decoration-none link-light" href="#!">UI/UX</a>
+              <a class="badge bg-black text-decoration-none link-light" href="#!">Responsive design</a>
+            </div>
+            <img src="./Figma Exports/Desktop - Shopping Cart Mockup with Laptop.png"
+              class="img-fluid shadow-sm rounded-3 g-3 mb-5" alt="Image">
+          </header>
+
+
+          <!-- Problem Statement-->
+          <section class="col-xl-11 mb-5">
+            <h3 class="fw-bolder mt-5">1. How RoamZ Checkout Stands Out</h3>
+            <h5 class="fw-semibold mb-2 mt-5">Problem</h4>
+              <p class="fs-6 fw-normal lh-base mb-3">Many travel booking websites overwhelm users with cluttered
+                checkout screens,
+                excessive form fields, and unclear instructions, leading to high cart abandonment rates.
+              </p>
+              <p class="fs-6 mb-5 lh-base"> Users often feel
+                lost during the booking process on other websites, unsure how many steps remain or how far they've
+                progressed.
+              </p>
+
+              <h5 class="fw-semibold mb-2">Solution</h5>
+              <p class="fs-6 fw-normal lh-base">The RoamZ checkout process is crafted to be a calming journey. It
+                simplifies navigation
+                with a clean design and concise prompts, breaking down the purchase into manageable steps. By keeping
+                each
+                screen
+                focused and free of unnecessary distractions, customers can complete their bookings efficiently.
+              </p>
+              <p class="fs-6 fw-normal lh-base">I designed the RoamZ checkout screens with a consistent and visually
+                prominent progress bar.
+                Each step is labeled clearly (e.g., "Customer Details," "Payment Info"), so users know exactly where
+                they are in
+                the process and what’s coming next. This approach reduces anxiety and provides reassurance throughout
+                the
+                booking.
+              </p>
+              <p class="fs-6 fw-normal lh-base">My design prioritizes trust elements on the payment screen, including
+                secure payment icons,
+                simple language, and transparent cost breakdowns. By reinforcing security and transparency, users are
+                more
+                likely to complete their bookings without second-guessing their decision.
+              </p>
+          </section>
+
+
+          <!-- User Navigation-->
+          <section class="col-xl-11 mb-5">
+            <h3 class="fw-bolder mb-4 pt-5">2. User Navigation: A Guided Path to Booking</h3>
+            <p class="fs-6 fw-normal lh-base mb-5">Navigating through the RoamZ checkout screens is an intuitive,
+              step-by-step
+              process that guides users effortlessly</p>
+            <h4 class="fw-semibold mb-2">Cart Overview</h4>
+            <p class="class=" fs-6 fw-normal lh-base mb-4">Users start with a clear, well-organized shopping cart
+              screen.
+              Each item is listed with essential details like trip dates, number of travelers, and total price.
+              A prominent "Proceed to Checkout" button ensures there is no confusion about how to move forward.</p>
+            <div class="d-flex col-12 gap-5">
+              <div class="mb-5">
+                <img src="./Figma Exports/Frame 134.png" class="img-fluid shadow-sm rounded-3 g-3" alt="Image">
+              </div>
+            </div>
+
+
+            <h4 class="fw-semibold mb-2">Customer Details</h4>
+            <p class="class=" fs-6 fw-normal lh-base mb-4">The next screen asks for customer information in bite-sized
+              sections.
+              Simple form fields, contextual tips, and auto-fill capabilities reduce the time needed to input personal
+              details.
+              This streamlines the user experience and reduces the chances of errors.</p>
+            <div class="d-flex col-12 gap-5">
+              <div class=" mb-5">
+                <img src="./Figma Exports/Frame 135.png" class="img-fluid shadow-sm rounded-3 g-3" alt="Image">
+              </div>
+            </div>
+
+            <h4 class="fw-semibold mb-2">Payment Info</h4>
+            <p class="fs-6 fw-normal lh-base mb-4">The payment screen is designed to be straightforward and secure, with
+              minimal fields
+              and support for
+              multiple payment methods. Clear icons and an interactive progress bar help customers feel confident about
+              how much further they have to go to complete the booking.</p>
+            <div class="d-flex col-12 gap-5">
+              <div class="mb-5">
+                <img src="./Figma Exports/Frame 136.png" class="img-fluid shadow-sm rounded-3 g-3 mb-3" alt="Image">
+              </div>
+            </div>
+
+            <h4 class="fw-semibold mb-2">Booking Confirmation</h4>
+            <p class="fs-6 fw-normal lh-base mb-4">The final screen provides a concise summary of the booking, including
+              payment status,
+              confirmation number,
+              and a downloadable itinerary. A call-to-action for “Prepare for Your Trip” redirects users to useful
+              resources, enhancing their
+              overall experience.</p>
+            <div class="d-flex col-12 mb-5">
+              <div>
+                <img src="./Figma Exports/Frame 138.png" class="img-fluid shadow-sm rounded-3 g-3 mb-5" alt="Image">
+              </div>
+            </div>
+          </section>
+
+
+
+
+
+          <!-- Streamlined Checkout-->
+          <section class="col-xl-11 mb-5">
+            <h3 class="fw-bolder mb-4 pt-5">3. Streamlined Checkout for Easy <br>Sales Completion</h3>
+            <p class="fs-6 fw-normal lh-base mb-4">To drive conversions, my design focused on eliminating common pain
+              points during
+              checkout</p>
+            <div class="d-flex col-12 gap-5">
+              <div>
+                <img src="./Figma Exports/Frame 139.png" class="img-fluid shadow-sm rounded-3 g-3 mb-5" alt="Image">
+              </div>
+            </div>
+            <h4 class="fw-semibold mb-2">Visual Hierarchy</h4>
+            <p class="fs-6 fw-normal lh-base mb-4">Each screen uses a clear visual hierarchy, highlighting crucial
+              elements like action
+              buttons, key information, and error prompts.
+              This makes it easier for users to complete each task without feeling overwhelmed.</p>
+
+            <h4 class="fw-semibold mb-2">Progress Indicators</h4>
+            <p class="fs-6 fw-normal lh-base mb-4">Users can always see how many steps remain to complete their
+              purchase, reducing anxiety
+              and the feeling of uncertainty.</p>
+
+            <h4 class="fw-semibold mb-2">Error Prevention</h4>
+            <p class="fs-6 fw-normal lh-base mb-4">By integrating real-time validation (e.g., highlighting missing
+              fields), users are
+              guided to correct mistakes immediately,
+              reducing the likelihood of failed transactions.</p>
+
+            <h4 class="fw-semibold mb-2">Trust and Security</h4>
+            <p class="fs-6 fw-normal lh-base mb-4">Prominent trust badges, SSL indicators, and a concise breakdown of
+              costs at the payment
+              stage build trust, encouraging
+              customers to complete the purchase confidently.</p>
+          </section>
+
+          <!-- Enhancing RoamZ's Brand Values Through Design-->
+          <section class="col-xl-11 mb-5">
+            <h3 class="fw-bolder mb-4 pt-5">4. Enhancing RoamZ's Brand Values Through Design</h3>
+            <p class="fs-6 fw-normal lh-base mb-4">RoamZ values simplicity, reliability, and user empowerment. My
+              checkout designs embody these values by</p>
+            <div class="d-flex col-12 gap-5">
+              <div class=" mb-5">
+                <img src="./Figma Exports/Frame 140.png" class="img-fluid shadow-sm rounded-3 g-3" alt="Image">
+              </div>
+            </div>
+            <h4 class="fw-semibold mb-2">Simplicity</h4>
+            <p class="fs-6 fw-normal lh-base mb-4">A clean, modern aesthetic with ample white space keeps users focused
+              on the essentials,
+              reflecting RoamZ's mission to make travel bookings stress-free.
+              This makes it easier for users to complete each task without feeling overwhelmed.</p>
+
+            <h4 class="fw-semibold mb-2">Progress Indicators</h4>
+            <p class="fs-6 fw-normal lh-base mb-4">Clear instructions, real-time validation, and detailed breakdowns of
+              charges showcase
+              RoamZ as a trustworthy brand that prioritizes customer needs.</p>
+
+            <h4 class="fw-semibold mb-2">Error Prevention</h4>
+            <p class="fs-6 fw-normal lh-base mb-4">The design empowers users by providing transparent progress
+              indicators, error-preventing forms,
+              and helpful prompts. By giving customers full control over their booking journey,
+              RoamZ becomes the go-to platform for effortless travel planning.</p>
+          </section>
+
+          <!-- Final Thoughts-->
+          <section class="col-xl-11 mb-5 mt-5">
+            <h3 class="fw-bolder mb-4 pt-5"> Final Thoughts</h3>
+            <p class="fs-6 fw-normal lh-base mb-4">The RoamZ checkout experience is more than just a transaction—it’s a
+              curated journey.
+              By focusing on simplicity, transparency, and a customer-first approach, I’ve designed a checkout process
+              that not only drives sales but also aligns with RoamZ's core values. This project showcases my ability to
+              identify common pitfalls in user experience and transform them into a streamlined, enjoyable interaction
+              that leaves customers excited to book their next adventure.</p>
+            <div class="d-flex col-12 gap-5">
+              <div class=" mb-5">
+                <img src="./Figma Exports/Frame 141.png" class="img-fluid shadow-sm rounded-3 g-3 mb-5" alt="Image">
+              </div>
+            </div>
+          </section>
+      </div>
+    </div>
+    </article>
+  </div>
+  </div>
+  </div>
+
+
+
+
+
+
+  <!-- FOOTER -->
+  <div class="container mt-5">
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+      <div class="col-md-4 d-flex align-items-center">
+        <span class="mb-3 mb-md-0 text-body-secondary">© Nicholaschua.com</span>
+      </div>
+
+      <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+        <li class="ms-3"><a class="text-body-secondary" href="#">
+            <svg class="bi" width="24" height="24">
+              <use xlink:href="#twitter"></use>
+            </svg></a>
+        </li>
+        <li class="ms-3"><a class="text-body-secondary" href="#">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin"
+              viewBox="0 0 16 16">
+              <path
+                d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z" />
+            </svg></a>
+        </li>
+        <li class="ms-3"><a class="text-body-secondary" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16"
+              height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+              <path
+                d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334" />
+            </svg></a>
+        </li>
+      </ul>
+    </footer>
+  </div>
+
+
+
+
+
+  <!-- FOOTER -->
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
