@@ -15,14 +15,29 @@ body {
   color: transparent;
 }
 
+
+.btn {
+  border-radius: 50px;
+}
+
 .btn-dark-cta {
-  background-color: #0F50A6;
-  color: #DFF0FF;
+  background-color: #0C6CEE;
+  color: #FFFFFF;
 }
 
 .btn-dark-cta:hover {
-  background-color: #072553;
-  color: #DFF0FF;
+  background-color: #0448A3;
+  color: white;
+}
+
+.btn-outline-secondary {
+  color: black;
+  border-color: #BBBBBB;
+}
+
+.btn-outline-secondary:hover {
+  background-color: white;
+  color: black;
 }
 
 .btn-outline-secondary-cta:hover {
@@ -34,9 +49,12 @@ h1 {
 }
 
 .h1-display {
-  letter-spacing: -3px;
+  letter-spacing: -px;
 }
 
+.color-transparent {
+  background-color: transparent;
+}
 
 .magicpattern { 
   width: 100%;
