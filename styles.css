@@ -27,6 +27,12 @@ body {
   color: transparent;
 }
 
+.text-gradient-cta {
+  background-image: linear-gradient(0deg, rgba(2, 6, 28, 1) 0%, rgba(10, 56, 117, 1) 60%, rgba(22, 112, 230, 1) 97%);
+  background-clip: text;
+  color: transparent;
+}
+
 .btn {
   border-radius: 50px;
 }
